@@ -6,16 +6,14 @@ import { Link } from 'react-router-dom'
 const Home = () => {
     return (
         <div className="nav">
-            <div className="nav-item"> 메뉴
+            <div className="nav-item">
                 <h1> [홈] </h1>
                 <nav>
-                    <Link to={"about"}> [회사소개] </Link>
-                    <Link to={"events"}>[이벤트]</Link>
-                    <Link to={"products"}>[제품]</Link>
-                    <Link to={"contact"}>[고객 지원]</Link>
+                    <Link to={"about"}> [빵 목록] </Link>
+                    <Link to={"events"}>[내게 맞는 빵 찾기]</Link>
+                    <Link to={"products"}>[로그인]</Link>
+                    <Link to={"contact"}>[회원가입]</Link>
                 </nav>
-
-
             </div>
         </div>)
 }
