@@ -1,5 +1,5 @@
 import React from "react";
-// eslint-disable-next-line import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import { MDBContainer, MDBRow, MDBCol } from "mdbreact"; // eslint-disable-next-line
 import './home.css'; //Import here your file style
 import { Link } from 'react-router-dom'
 
