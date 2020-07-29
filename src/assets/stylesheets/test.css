@@ -45,7 +45,7 @@ s {
 
 img {
     border: 0;
-    padding: 0;
+    padding: 5px;
 }
 
 ul,
@@ -535,6 +535,11 @@ body.mobile #shop_button:not(.text) {
 /**
  * Image Gallery Navigation Arrows
  */
+
+.image-gallery{
+    margin-left: 30%;
+
+}
 
 .image-gallery-navigation .left-arrow,
 .image-gallery-navigation .right-arrow {
