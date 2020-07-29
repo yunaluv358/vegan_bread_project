@@ -11,10 +11,10 @@ const Home = ()=>{
                 <div className="nav-item">
                     <h3> home </h3>
                     <nav>
-                        <Link to={"about"}> about </Link>
-                        <Link to={"list"}> 빵 목록 </Link>
-                        <Link to={"search"}> 내게 맞는 빵 찾기 </Link>
-                        <Link to={"login"}> 로그인 </Link>
+                        <Link to={"about"}> ABOUT / </Link>
+                        <Link to={"breads"}> 빵 목록 /</Link>
+                        <Link to={"search"}> 내게 맞는 빵 찾기 /</Link>
+                        <Link to={"login"}> 로그인 /</Link>
                         <Link to={"signUp"}> 회원가입 </Link>
                     </nav>
 

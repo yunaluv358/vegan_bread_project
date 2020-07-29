@@ -6,7 +6,7 @@ import {PageTemplate} from "../components";
 
 
 const About = () => <PageTemplate><section className="about">
-    <h1> about </h1>
+
     <div id="userDiv">
 
         <p className="stitle">MORE NO FOR YOU</p>

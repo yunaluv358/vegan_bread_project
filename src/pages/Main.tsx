@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import Home from "../home/Home";
-import List from "../list/List";
+import Breads from "../bread/Breads";
 import Search from "../search/Search";
 import About from "../about/About";
 import Login from "../member/Login";
@@ -17,7 +17,7 @@ const Main: React.FC = () => {
                 <Switch>
                     <Route exact path="/" component = {Home}/>
                     <Route path="/about" component = {About}/>
-                    <Route path="/list" component = {List} />
+                    <Route path="/breads" component = {Breads} />
                     <Route path="/search" component ={Search} />
                     <Route path="/login" component = {Login} />
                     <Route path="/signUp" component = {SignUp}/>
