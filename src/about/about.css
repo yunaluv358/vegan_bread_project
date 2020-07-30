@@ -60,13 +60,11 @@
 }
 
 .text{
-    display: inline;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
 }
 .taste{
-    display: inline;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
@@ -74,25 +72,30 @@
 }
 
 
-.infor{
-    margin-top: 60px;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .image_list{
-    margin-top: 1rem;
-    display: flex;
-    align-items: center;
+    margin: 0 auto;
     justify-content: center;
     padding: 100rem;
+    align-items: center;
+    justify-content: center;
 }
 
-.ul li {
-    display: inline;
-    padding:0 10px;
+ul {
     margin: 0 auto;
+    list-style:none;
+    margin:0 auto;
+    padding:0;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    border : 0;
+    float: left;
     align-items: center;
     justify-content: center;
 }

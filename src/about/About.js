@@ -1,7 +1,6 @@
 import React from "react";
 // eslint-disable-next-line import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import './about.css';
-import { Link } from 'react-router-dom'
 import {PageTemplate} from "../components";
 
 
@@ -12,16 +11,32 @@ const About = () => <PageTemplate><section className="about">
         <p className="stitle">MORE NO FOR YOU</p>
 
         <div id="image_list">
-            <li>
-                <ul><img src="https://thebreadblue.com/theme/eb4_shop_005/page/img/brandstory/loc1.png" width="252" height="252"/></ul>
-                <ul><img src="https://thebreadblue.com/theme/eb4_shop_005/page/img/brandstory/loc2.png" width="252" height="252"/></ul>
-                <ul><img src="https://thebreadblue.com/theme/eb4_shop_005/page/img/brandstory/loc3.png" width="252" height="252"/></ul>
-                <ul><img src="https://thebreadblue.com/theme/eb4_shop_005/page/img/brandstory/loc4.png" width="252" height="252"/></ul>
-            </li>
+           <div>
+            <ul>
+                <br/>
+                <br/>
+                <li><img src={"https://thebreadblue.com/theme/eb4_shop_005/page/img/brandstory/loc1.png"} width="252" height="252" alt={"inform1"}/></li>
+                <li><img src={"https://thebreadblue.com/theme/eb4_shop_005/page/img/brandstory/loc2.png"} width="252" height="252" alt={"inform2"}/></li>
+                <li><img src={"https://thebreadblue.com/theme/eb4_shop_005/page/img/brandstory/loc3.png"} width="252" height="252" alt={"inform3"}/></li>
+                <li><img src={"https://thebreadblue.com/theme/eb4_shop_005/page/img/brandstory/loc4.png"} width="252" height="252" alt={"inform4"}/></li>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+            </ul>
+           </div>
         </div>
+        <br/>
+
         <div id = "text">
             <p>
-                <p className="infor"></p>
                 <span>건강하고 맛있는 빵은 좋은 재료에서부터 시작됩니다.</span><br/>
                 더브레드블루는 믿고 먹을 수 있는 안전한 먹거리만을 제공한다는 신념으로 제조과정에서 일체의 화학 식품 첨가물을 넣지 않으며<br/>
                 쌀눈유, 두유, 콩 단백질 등의 건강한 식물성 재료만을 사용합니다. <br/>
@@ -32,6 +47,7 @@ const About = () => <PageTemplate><section className="about">
                 더브레드블루에서는 자사 노하우로 직접 배양한 천연발효종을 사용하여 건강하고 맛있는 빵을 매일 정성스레 구워 냅니다.<br/>
                 이렇게 만들어진 빵은 속이 편하고 소화가 잘되기 때문에 어린 아이와 어르신들이 드셔도 좋습니다. <br/>
             </p>
+
 
             <p className="stitle">TASTE FOR ALL</p>
 
