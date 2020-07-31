@@ -77,7 +77,6 @@
 .image_list{
     margin: 0 auto;
     justify-content: center;
-    padding: 100rem;
     align-items: center;
     justify-content: center;
 }
@@ -85,15 +84,12 @@
 ul {
     margin: 0 auto;
     list-style:none;
-    margin:0 auto;
-    padding:0;
     align-items: center;
     justify-content: center;
 }
 
 li {
     margin: 0 auto;
-    padding: 0 0 0 0;
     border : 0;
     float: left;
     align-items: center;

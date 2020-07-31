@@ -8,10 +8,10 @@ const selectedStyle = {
 
 const MainMenu = () => <nav className={"main-menu"}>
     <NavLink to={"/"}><FaHome/></NavLink>
-    <NavLink to={"/bread"} activeStyle={selectedStyle}>[회사소개]</NavLink>
-    <NavLink to={"/events"} activeStyle={selectedStyle}>[이벤트]</NavLink>
-    <NavLink to={"/about"} activeStyle={selectedStyle}>[제품]</NavLink>
-    <NavLink to={"/contact"} activeStyle={selectedStyle}>[고객지원]</NavLink>
+    <NavLink to={"/bread"} activeStyle={selectedStyle}>bread</NavLink>
+    <NavLink to={"/events"} activeStyle={selectedStyle}>events</NavLink>
+    <NavLink to={"/about"} activeStyle={selectedStyle}>about</NavLink>
+    <NavLink to={"/contact"} activeStyle={selectedStyle}>contact</NavLink>
 </nav>
 
 export default MainMenu

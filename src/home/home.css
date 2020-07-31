@@ -8,9 +8,11 @@
     color : black;
 }
 .link {
-    color : black;
+    color : #2e2316
 }
-
+.link2{
+    color : #59452e;
+}
 .nav {
     display: flex;
     border-top: 1rem;

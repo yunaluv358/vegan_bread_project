@@ -3,11 +3,6 @@ import {PageTemplate} from "../components";
 import './breads.css'
 
 
-
-
-
-
-
 export const Breads = () => <PageTemplate><section className="list">
         <br/>
         <div grid-row="" grid-pad="1.5" grid-gutter="3" grid-responsive="">
@@ -23,17 +18,17 @@ export const Breads = () => <PageTemplate><section className="list">
 
             <div grid-col="8" grid-pad="1.5" className="">
                 <div className="image-gallery" gid="6">
-                    <a rel="history" href="Vessel-01" className="image-link">
+                    <a rel="history" href="Bread01" className="image-link">
                         <img src={'/images/fig_campagne.jpg'} width="344" height="441.6" alt=""/></a>
-                    <a rel="history" href="Vessel-02" className="image-link">
+                    <a rel="history" href="Bread02" className="image-link">
                         <img src={'/images/morning_bread.jpg' } width="344" height="441.6" alt=""/></a>
-                    <a rel="history" href="Vessel-03" className="image-link">
+                    <a rel="history" href="Bread03" className="image-link">
                         <img src={'/images/sweet_pumpkin_bread.jpg'} width="344" height="441.6" alt=""/></a>
-                    <a rel="history" href="Vessel-04" className="image-link">
+                    <a rel="history" href="Bread04" className="image-link">
                         <img src={'/images/walnut_campagne.jpg'} width="344" height="441.6" alt=""/></a>
-                    <a rel="history" href="Vessel-05" className="image-link">
+                    <a rel="history" href="Bread05" className="image-link">
                             <img src={'/images/whole_wheat_ bread.jpg'} width="344" height="441.6" alt=""/></a>
-                    <a rel="history" href="Vessel-06" className="image-link">
+                    <a rel="history" href="Bread06" className="image-link">
                             <img src={'/images/whole_wheat_fermented_bread.jpg'} width="344" height="441.6" alt=""/></a>
                     {/*<a rel="history" href="Vessel-07" className="image-link">{image 10 caption="Vessel 07"}</a>*/}
                     {/*<a rel="history" href="Vessel-08" className="image-link">{image 11 caption="Vessel 08"}</a>*/}

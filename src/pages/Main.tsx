@@ -5,8 +5,9 @@ import Home from "../home/Home";
 import Breads from "../bread/Breads";
 import Search from "../search/Search";
 import About from "../about/About";
-import Login from "../member/Login";
-import SignUp from "../member/SignUp";
+import Signin from "../member/Signin";
+import Signup from "../member/Signup";
+import Contact from "../contact/Contact";
 
 
 
@@ -19,8 +20,9 @@ const Main: React.FC = () => {
                     <Route path="/about" component = {About}/>
                     <Route path="/breads" component = {Breads} />
                     <Route path="/search" component ={Search} />
-                    <Route path="/login" component = {Login} />
-                    <Route path="/signUp" component = {SignUp}/>
+                    <Route path="/signIn" component = {Signin} />
+                    <Route path="/signUp" component = {Signup}/>
+                    <Route path="/contact" component = {Contact}/>
                     <Route component={Error}/>
                 </Switch>
             </div>
