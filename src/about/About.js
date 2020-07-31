@@ -6,15 +6,14 @@ import {PageTemplate} from "../components";
 
 const About = () => <PageTemplate><section className="about">
 
-    <div id="userDiv">
+    <div id="userDiv" className={"width_100_pct"}>
 
         <p className="stitle">MORE NO FOR YOU</p>
 
-        <div id="image_list">
-           <div>
+        <div id="image_list" className="image_center">
+
             <ul>
-                <br/>
-                <br/>
+
                 <li><img src={"https://thebreadblue.com/theme/eb4_shop_005/page/img/brandstory/loc1.png"} width="252" height="252" alt={"inform1"}/></li>
                 <li><img src={"https://thebreadblue.com/theme/eb4_shop_005/page/img/brandstory/loc2.png"} width="252" height="252" alt={"inform2"}/></li>
                 <li><img src={"https://thebreadblue.com/theme/eb4_shop_005/page/img/brandstory/loc3.png"} width="252" height="252" alt={"inform3"}/></li>
@@ -31,7 +30,7 @@ const About = () => <PageTemplate><section className="about">
                 <br/>
                 <br/>
             </ul>
-           </div>
+
         </div>
         <br/>
 
