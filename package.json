@@ -50,6 +50,7 @@
   },
   "devDependencies": {
     "i": "^0.3.6",
+    "jquery": "^3.5.1",
     "ts-node": "^8.10.2"
   }
 }
