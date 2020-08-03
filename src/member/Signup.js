@@ -1,10 +1,10 @@
 import React from "react";
-import {PageTemplate} from "../components";
+import {MainHeader, PageTemplate} from "../components";
 import './signup.css'
 const Signup = () => <PageTemplate> <section className="signup">
-    <h1> [회원가입] </h1>
+    <div className="main">
+       <MainHeader/>
 
-<div>
     <form>
         <h3>Sign Up</h3>
 
@@ -33,10 +33,8 @@ const Signup = () => <PageTemplate> <section className="signup">
             Already registered <a href="#">sign in?</a>
         </p>
     </form>
-
-
 </div>
-
+    
 
 </section></PageTemplate>
 export default Signup

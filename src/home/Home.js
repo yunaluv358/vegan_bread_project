@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 
 const Home = ()=>{
     return <>
-        <div className="main">
             <img src={"https://garitonkids.com/wp-content/uploads/2020/03/2431_3.png"} width="256" height="180" alt="bread"/>
             <div className="nav">
                 <div className="nav-item">
@@ -19,7 +18,7 @@ const Home = ()=>{
                     </nav>
                 </div>
                 </div>
-            </div>
+
 
         <div grid-row="" grid-pad="1.5" grid-gutter="3" grid-responsive="" className="">
             <div grid-col="4" grid-pad="1.5"></div>

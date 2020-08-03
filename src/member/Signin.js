@@ -1,5 +1,5 @@
 import React from "react";
-import {PageTemplate} from "../components";
+import {MainHeader, PageTemplate} from "../components";
 import './signin.css'
 
 const signinTypes= {REQUEST: 'signin/REQUEST', SUCCESS: 'success/REQUEST', FAIL: 'signin/FAIL'}
@@ -18,9 +18,12 @@ const signinReducer = (state, action) =>{
 }
 
 const Signin = () => <PageTemplate> <section className="signin">
+    <MainHeader/>
+    <div className="main">
         id<input/><br />
         password <input/><br />
         <button>login</button>
+            </div>
 </section></PageTemplate>
 
 export default Signin

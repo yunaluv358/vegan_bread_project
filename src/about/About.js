@@ -1,11 +1,11 @@
 import React from "react";
 // eslint-disable-next-line import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import './about.css';
-import {PageTemplate} from "../components";
+import {MainHeader, PageTemplate} from "../components";
 
 
 const About = () => <PageTemplate><section className="about">
-
+    <MainHeader/>
     <div id="userDiv" className={"width_100_pct"}>
 
         <p className="stitle">MORE NO FOR YOU</p>

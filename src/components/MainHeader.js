@@ -1,12 +1,16 @@
 import React from "react";
-import {PageTemplate} from "../components";
-import './breads.css'
+import { Link } from 'react-router-dom'
 
-export const Bread01 = () => {
+const MainHeader = ()=>{
     return <>
-        <div className="Bread">
+        <div className="main">
             <img src={"https://garitonkids.com/wp-content/uploads/2020/03/2431_3.png"} width="256" height="180" alt="bread"/>
+
+
+                    <h3> b r e a d </h3>
+
+
         </div>
         </>
-}
-export default Bread01
+    }
+    export default MainHeader

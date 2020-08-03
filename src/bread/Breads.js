@@ -1,9 +1,13 @@
 import React from "react";
-import {PageTemplate} from "../components";
+import {MainHeader, PageTemplate} from "../components";
+import {Route, BrowserRouter, Switch} from 'react-router-dom'
 import './breads.css'
+import Bread01 from "../details/Bread01";
+
 
 
 export const Breads = () => <PageTemplate><section className="list">
+    <MainHeader/>
         <br/>
         <div grid-row="" grid-pad="1.5" grid-gutter="3" grid-responsive="">
             <div grid-col="4" grid-pad="1.5" className="bread-title"><h1>B r e a d</h1><br/>
@@ -36,6 +40,7 @@ export const Breads = () => <PageTemplate><section className="list">
                     {/*<a rel="history" href="Vessel-10" className="image-link">{image 19 caption="Vessel 10"}</a>*/}
                     {/*<a rel="history" href="Vessel-11" className="image-link">{image 21 caption="Vessel 11"}</a>*/}
                     {/*<a rel="history" href="Vessel-12" className="image-link">{image 20 caption="Vessel 12"}</a>*/}
+
                 </div>
                 <br/><br/><a href="Page-Index" rel="history">︎ Index</a></div>
         </div>
